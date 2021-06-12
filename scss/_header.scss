@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -14,7 +19,8 @@
   text-align: center;
 
   &__title {
-    padding: 250px 0 0 0;
+    margin: 0;
+    padding: 250px 0 10px 0;
     font-size: 48px;
     font-weight: 700;
   }
@@ -22,13 +28,15 @@
   &__text {
     font-size: 22px;
     font-weight: 400;
+    margin: 0 0 100px 0;
+    letter-spacing: 4px;
   }
 
-  &__serch {
+  &__search {
     background: #ffffff;
     width: 650px;
     height: 60px;
-    margin: 0 auto;
+    margin: 50px auto 100px auto;
 
     &-item {
       font-size: 14px;
@@ -38,6 +46,8 @@
       outline: none;
       border: none;
       color: #999999;
+      text-align: center;
+      letter-spacing: 4px;
     }
 
     &-btn {
@@ -51,5 +61,14 @@
       font-weight: 400;
       font-size: 14px;
     }
+
+    &-btn:hover {
+      color: #504d4d;
+    }
+  }
+
+  &__scroll {
+    font-size: 14px;
+    font-weight: 400;
   }
 }
