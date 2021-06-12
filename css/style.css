@@ -1,4 +1,89 @@
 .container {
-  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.app-header {
+  background-image: url(../assets/imeges/Image.png);
+  height: 820px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+.app-header__title {
+  padding: 250px 0 0 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.app-header__text {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.app-header__serch {
+  background: #ffffff;
+  width: 650px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.app-header__serch-item {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 18px 0;
+  width: 500px;
+  outline: none;
+  border: none;
+  color: #999999;
+}
+
+.app-header__serch-btn {
+  background: #5474fd;
+  border: none;
+  width: 100px;
+  height: 56px;
+  color: #ffffff;
+  margin: 2px 2px 2px 41px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.app-menu {
+  color: #ffffff;
+  background: #5474fd;
+  height: 80px;
+}
+
+.app-menu__parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-menu__logo {
+  padding: 28px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}
+
+.app-menu__nav {
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.app-menu__nav-list-item {
+  display: inline;
+}
+
+.app-menu__nav-list-item-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 20px;
 }
 /*# sourceMappingURL=style.css.map */
