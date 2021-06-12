@@ -210,7 +210,7 @@
   height: 370px;
   padding: 15px;
   background: #393939;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 40px 30px;
 }
 
@@ -230,6 +230,7 @@
   padding: 15px 0;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .app-madrid1__content-btn {
@@ -245,6 +246,69 @@
 }
 
 .app-madrid1__content-btn:hover {
+  color: #504d4d;
+}
+
+.app-madrid2 {
+  background-image: url(../assets/imeges/madrid2.png);
+  height: 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 230px 0 100px 0;
+}
+
+.app-madrid2__content {
+  display: flex;
+}
+
+.app-madrid2__content-left {
+  width: 50%;
+}
+
+.app-madrid2__content-right {
+  width: 540px;
+  height: 370px;
+  padding: 15px;
+  background: #393939;
+  opacity: 0.9;
+  padding: 40px 30px;
+}
+
+.app-madrid2__content-right-location {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.app-madrid2__content-right-title {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.app-madrid2__content-right-text {
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.app-madrid2__content-right-btn {
+  background: #5474fd;
+  border: none;
+  color: #ffffff;
+  width: 225px;
+  height: 60px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 15px 0;
+}
+
+.app-madrid2__content-right-btn:hover {
   color: #504d4d;
 }
 
