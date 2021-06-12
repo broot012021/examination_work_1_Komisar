@@ -1,0 +1,44 @@
+.app-testimonial {
+  background-image: url(../assets/imeges/whatbg.png);
+  height: 740px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  padding: 100px 0 200px 0;
+
+  &__title {
+    text-align: center;
+    font-family: "Aleo", serif;
+    font-size: 36px;
+    padding-bottom: 90px;
+  }
+
+  &__parent {
+    display: flex;
+    flex-wrap: wrap;
+    background: #333333;
+    height: 280px;
+
+    &-left {
+      width: 40%;
+    }
+
+    &-right {
+      width: 60%;
+      padding: 50px 0;
+
+      &-title {
+        font-size: 20px;
+        padding-bottom: 30px;
+      }
+
+      &-text {
+        font-size: 16px;
+        line-height: 1.8;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.app-footer {
+  background: #232323;
+  height: 270px;
+  color: #ffffff;
+
+  &__content {
+    text-align: center;
+
+    &-logo {
+      padding: 28px;
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      letter-spacing: 3px;
+    }
+
+    &-text {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
