@@ -5,9 +5,10 @@
 
   &__content {
     text-align: center;
+    padding-top: 70px;
 
     &-logo {
-      padding: 28px;
+      padding: 30px;
       font-family: "Josefin Sans", sans-serif;
       font-weight: 700;
       font-size: 24px;
@@ -18,5 +19,62 @@
       font-size: 16px;
       font-weight: 400;
     }
+  }
+}
+
+.fab {
+  padding: 20px 5px;
+}
+
+.fab:hover {
+  color: #5474fd;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 960px;
+  }
+
+  .app-menu__nav-list {
+    display: none;
+  }
+
+  .app-menu__nav-hamburger {
+    display: block;
+    background: #5474fd;
+    border: none;
+  }
+
+  .app-whychoose__content-right-bottomfoto {
+    padding-left: 65px;
+  }
+
+  .app-testimonial__parent-right {
+    width: 100%;
+  }
+  .app-testimonial__parent-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 320px;
+  }
+
+  .app-white__content-text {
+    width: 280px;
   }
 }

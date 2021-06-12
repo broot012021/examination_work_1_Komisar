@@ -85,7 +85,7 @@
 }
 
 .app-menu__logo {
-  padding: 28px;
+  padding: 28px 15px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -111,6 +111,10 @@
 
 .app-menu__nav-list-item-link:hover {
   color: #504d4d;
+}
+
+.app-menu__nav-hamburger {
+  display: none;
 }
 
 .app-whychoose {
@@ -151,7 +155,7 @@
 }
 
 .app-whychoose__content-left-btn {
-  background: #5474fd;
+  background: linear-gradient(45deg, #496bfe 40%, #5474fd 40%);
   border: none;
   color: #ffffff;
   width: 225px;
@@ -192,6 +196,10 @@
 .app-works__parent-box {
   width: 33%;
   color: #ffffff;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
 }
 
 .app-madrid1 {
@@ -234,7 +242,7 @@
 }
 
 .app-madrid1__content-btn {
-  background: #5474fd;
+  background: linear-gradient(45deg, #496bfe 40%, #5474fd 40%);
   border: none;
   color: #ffffff;
   width: 225px;
@@ -297,7 +305,7 @@
 }
 
 .app-madrid2__content-right-btn {
-  background: #5474fd;
+  background: linear-gradient(45deg, #496bfe 40%, #5474fd 40%);
   border: none;
   color: #ffffff;
   width: 225px;
@@ -334,27 +342,25 @@
 .app-testimonial__parent {
   display: flex;
   flex-wrap: wrap;
-  background: #333333;
   height: 280px;
 }
 
-.app-testimonial__parent-left {
-  width: 40%;
-}
-
 .app-testimonial__parent-right {
-  width: 60%;
-  padding: 50px 0;
-}
-
-.app-testimonial__parent-right-title {
-  font-size: 20px;
-  padding-bottom: 30px;
+  background: #333333;
+  width: 50%;
+  padding: 50px 0 0 20px;
+  height: 280px .app-testimonial__parent-right -title;
+  height-font-size: 20px;
+  height-padding-bottom: 30px;
 }
 
 .app-testimonial__parent-right-text {
   font-size: 16px;
   line-height: 1.8;
+}
+
+.fa-quote-left {
+  color: #5474fd;
 }
 
 .app-footer {
@@ -365,10 +371,11 @@
 
 .app-footer__content {
   text-align: center;
+  padding-top: 70px;
 }
 
 .app-footer__content-logo {
-  padding: 28px;
+  padding: 30px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -378,5 +385,57 @@
 .app-footer__content-text {
   font-size: 16px;
   font-weight: 400;
+}
+
+.fab {
+  padding: 20px 5px;
+}
+
+.fab:hover {
+  color: #5474fd;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 960px;
+  }
+  .app-menu__nav-list {
+    display: none;
+  }
+  .app-menu__nav-hamburger {
+    display: block;
+    background: #5474fd;
+    border: none;
+  }
+  .app-whychoose__content-right-bottomfoto {
+    padding-left: 65px;
+  }
+  .app-testimonial__parent-right {
+    width: 100%;
+  }
+  .app-testimonial__parent-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 320px;
+  }
+  .app-white__content-text {
+    width: 280px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
