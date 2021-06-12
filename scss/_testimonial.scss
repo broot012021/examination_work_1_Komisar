@@ -19,18 +19,13 @@
   &__parent {
     display: flex;
     flex-wrap: wrap;
-    background: #333333;
     height: 280px;
 
-    &-left {
-      width: 40%;
-    }
-
     &-right {
-      width: 60%;
-      padding: 50px 0;
-
-      &-title {
+      background: #333333;
+      width: 50%;
+      padding: 50px 0 0 20px;
+      height: 280px &-title {
         font-size: 20px;
         padding-bottom: 30px;
       }
@@ -41,4 +36,8 @@
       }
     }
   }
+}
+
+.fa-quote-left {
+  color: #5474fd;
 }
