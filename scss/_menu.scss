@@ -1,0 +1,33 @@
+.app-menu {
+  color: #ffffff;
+  background: #5474fd;
+  height: 80px;
+
+  &__parent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    padding: 28px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+  }
+
+  &__nav {
+    font-family: "Aleo", serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    &-list {
+      &-item {
+        display: inline;
+        &-link {
+          text-decoration: none;
+          color: #ffffff;
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+}

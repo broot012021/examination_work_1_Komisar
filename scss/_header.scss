@@ -9,4 +9,47 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+
+  &__title {
+    padding: 250px 0 0 0;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  &__serch {
+    background: #ffffff;
+    width: 650px;
+    height: 60px;
+    margin: 0 auto;
+
+    &-item {
+      font-size: 14px;
+      font-weight: 400;
+      padding: 18px 0;
+      width: 500px;
+      outline: none;
+      border: none;
+      color: #999999;
+    }
+
+    &-btn {
+      background: #5474fd;
+      border: none;
+      width: 100px;
+      height: 56px;
+      color: #ffffff;
+      margin: 2px 2px 2px 41px;
+      font-family: "Aleo", serif;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
 }

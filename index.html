@@ -6,23 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Examination work</title>
   </head>
   <body>
     <div class="app">
       <header class="app-header">
         <div class="container">
-          <h1>BHORVAON</h1>
+          <h1 class="app-header__title">BHORVAON</h1>
           <p>Safe Travel Anywhere</p>
-          <div>
+          <div class="app-header__serch">
             <form>
               <p>
                 <input
+                  class="app-header__serch-item"
                   type="search"
                   name="q"
                   placeholder="Search Your Travel Destination"
                 />
-                <input type="submit" value="SEARCH" />
+                <input
+                  class="app-header__serch-btn"
+                  type="submit"
+                  value="SEARCH"
+                />
               </p>
             </form>
           </div>
@@ -30,34 +40,38 @@
             <p>Scroll Down</p>
           </div>
         </div>
-        <div class="app-header__menu">
-          <div>BHROMAN</div>
-          <nav class="app-white__header-menu">
-            <ul class="app-white__header-menu-list">
-              <li class="app-white__header-menu-list-item">
-                <a href="#" class="app-white__header-menu-list-item-link">
-                  WHO WE ARE
-                </a>
-              </li>
-              <li class="app-white__header-menu-list-item">
-                <a href="#" class="app-white__header-menu-list-item-link">
-                  WHAT WE DO
-                </a>
-              </li>
-              <li class="app-white__header-menu-list-item">
-                <a href="#" class="app-white__header-menu-list-item-link">
-                  TRAVEL WITH US
-                </a>
-              </li>
-              <li class="app-white__header-menu-list-item">
-                <a href="#" class="app-white__header-menu-list-item-link">
-                  CONTACT US
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
       </header>
+      <div class="app-menu">
+        <div class="container">
+          <div class="app-menu__parent">
+            <div class="app-menu__logo">BHROMAN</div>
+            <nav class="app-menu__nav">
+              <ul class="app-menu__nav-list">
+                <li class="app-menu__nav-list-item">
+                  <a href="#" class="app-menu__nav-list-item-link">
+                    WHO WE ARE
+                  </a>
+                </li>
+                <li class="app-menu__nav-list-item">
+                  <a href="#" class="app-menu__nav-list-item-link">
+                    WHAT WE DO
+                  </a>
+                </li>
+                <li class="app-menu__nav-list-item">
+                  <a href="#" class="app-menu__nav-list-item-link">
+                    TRAVEL WITH US
+                  </a>
+                </li>
+                <li class="app-menu__nav-list-item">
+                  <a href="#" class="app-menu__nav-list-item-link">
+                    CONTACT US
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
       <section class="app-whychoose">
         <div class="container">
           <div>
