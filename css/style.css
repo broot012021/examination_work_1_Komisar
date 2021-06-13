@@ -120,7 +120,6 @@
 .app-whychoose {
   top: -10px;
   background-image: url(../assets/imeges/whybg.png);
-  height: 685px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +182,6 @@
 
 .app-works {
   background: #333333;
-  height: 340px;
 }
 
 .app-works__parent {
@@ -214,12 +212,11 @@
 }
 
 .app-madrid1__content {
-  width: 540px;
+  width: 50%;
   height: 370px;
   padding: 15px;
   background: #393939;
   opacity: 0.9;
-  padding: 40px 30px;
 }
 
 .app-madrid1__content-location {
@@ -282,7 +279,6 @@
   padding: 15px;
   background: #393939;
   opacity: 0.9;
-  padding: 40px 30px;
 }
 
 .app-madrid2__content-right-location {
@@ -349,9 +345,12 @@
   background: #333333;
   width: 50%;
   padding: 50px 0 0 20px;
-  height: 280px .app-testimonial__parent-right -title;
-  height-font-size: 20px;
-  height-padding-bottom: 30px;
+  height: 280px;
+}
+
+.app-testimonial__parent-right-title {
+  font-size: 20px;
+  padding-bottom: 30px;
 }
 
 .app-testimonial__parent-right-text {
@@ -408,7 +407,10 @@
     border: none;
   }
   .app-whychoose__content-right-bottomfoto {
-    padding-left: 65px;
+    padding-left: 0;
+  }
+  .app-whychoose__content-right-topfoto {
+    padding-left: 0;
   }
   .app-testimonial__parent-right {
     width: 100%;
@@ -422,20 +424,47 @@
   .container {
     width: 720px;
   }
+  .app-header__search {
+    width: 300px;
+  }
+  .app-header__search-item {
+    width: 200px;
+  }
+  .app-header__search-btn {
+    margin: 20px 0 0 0;
+    width: 300px;
+  }
+  .app-whychoose__content-left {
+    width: 100%;
+  }
+  .app-whychoose__content-right {
+    width: 100%;
+    text-align: center;
+  }
+  .app-madrid1__content {
+    width: 100%;
+  }
+  .app-madrid2__content-left {
+    display: none;
+  }
+  .app-madrid2__content-right {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .container {
     width: 540px;
   }
+  .app-works__parent-box {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 575px) {
   .container {
     width: 320px;
-  }
-  .app-white__content-text {
-    width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */

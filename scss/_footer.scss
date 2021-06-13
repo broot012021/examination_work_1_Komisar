@@ -46,7 +46,11 @@
   }
 
   .app-whychoose__content-right-bottomfoto {
-    padding-left: 65px;
+    padding-left: 0;
+  }
+
+  .app-whychoose__content-right-topfoto {
+    padding-left: 0;
   }
 
   .app-testimonial__parent-right {
@@ -61,20 +65,54 @@
   .container {
     width: 720px;
   }
+
+  .app-header__search {
+    width: 300px;
+  }
+
+  .app-header__search-item {
+    width: 200px;
+  }
+
+  .app-header__search-btn {
+    margin: 20px 0 0 0;
+    width: 300px;
+  }
+
+  .app-whychoose__content-left {
+    width: 100%;
+  }
+  .app-whychoose__content-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-madrid1__content {
+    width: 100%;
+  }
+
+  .app-madrid2__content-left {
+    display: none;
+  }
+
+  .app-madrid2__content-right {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .container {
     width: 540px;
   }
+
+  .app-works__parent-box {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 575px) {
   .container {
     width: 320px;
-  }
-
-  .app-white__content-text {
-    width: 280px;
   }
 }
